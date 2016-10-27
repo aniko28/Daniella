@@ -94,7 +94,6 @@ a{
 .header{
     background: url("DDHeaderHalloween.jpg") no-repeat center;
     background-size: cover;
-    height: auto;
     max-width: 100%;
     vertical-align: middle;
     color: #ffffff;
@@ -109,25 +108,14 @@ h1{
     font-weight: bold;
     line-height: 120px;
 }
-/*h1:before{*/
-    /*content: "_";*/
-    /*display: block;*/
-    /*font-weight: normal;*/
-    /*font-size: 40px;*/
-    /*color: red;*/
-/*}*/
-h2{
-    font-size: 26px;
+
+h2, h3{
+    font-size: 22px;
     font-weight: 500;
     line-height: 40px;
     margin-bottom: 40px;
+    letter-spacing: 4px;
 }
-/*h2:before{*/
-    /*content: '"';*/
-    /*font-size: 50px;*/
-    /*color: silver;*/
-    /*vertical-align: bottom;*/
-/*}*/
 
 .btn-large{
     color: #ffffff;
@@ -138,4 +126,59 @@ h2{
     background-color: rgba(0,0,0,0.2);
     border-radius: 4px;
 
+}
+
+.wrapper {
+    background-color: #eeeeee;
+}
+
+.pont{
+    padding: 40px;
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    height: 700px;
+}
+
+hr {
+    border-top: 2px solid;
+    width: 14px;
+    margin: 0 auto;
+}
+
+h3{
+   line-height: 60px;
+    color: #333;
+    text-align: center;
+}
+
+.shop {
+    background: url("daniella_draper_Telegraph_luxury_press1.jpg") no-repeat;
+    height: 350px;
+    vertical-align: middle;
+    width: 599px;
+    float: left;
+}
+h4{
+    letter-spacing: 3px;
+    color: white;
+    font-size: 24px;
+    padding: 320px 10px;
+    float: left;
+}
+.draper{
+    background: url("DaniellaDraperTheDesigner.jpg") no-repeat;
+    height: 350px;
+    width: 599px;
+    float: left;
+}
+h5{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.hot img{
+    width: 599px;
+    float: left;
+    background-color: rgba(115, 115, 115, 0.38);
 }
